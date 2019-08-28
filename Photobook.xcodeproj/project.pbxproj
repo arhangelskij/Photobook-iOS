@@ -166,6 +166,12 @@
 		4CB35EAE2316AC1500712D07 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EAD2316AC1400712D07 /* SDWebImage.framework */; };
 		4CB35EB12316AC1B00712D07 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EAF2316AC1A00712D07 /* Stripe.framework */; };
 		4CB35EB22316AC1B00712D07 /* Stripe.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EB02316AC1A00712D07 /* Stripe.bundle */; };
+		4CB35ECA2316BD9F00712D07 /* Pods_Photobook_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35E942316A35A00712D07 /* Pods_Photobook_App.framework */; };
+		4CB35ECB2316BD9F00712D07 /* Pods_PhotobookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35E962316A35A00712D07 /* Pods_PhotobookTests.framework */; };
+		4CB35ECC2316BD9F00712D07 /* Pods_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35E982316A35A00712D07 /* Pods_SDK_Demo.framework */; };
+		4CB35ECD2316BD9F00712D07 /* Pods_Photobook_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1525F61AAEE6A164D123AB /* Pods_Photobook_App.framework */; };
+		4CB35ECE2316BD9F00712D07 /* Pods_PhotobookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0FB3B4314C5915DC93BD0C /* Pods_PhotobookTests.framework */; };
+		4CB35ECF2316BD9F00712D07 /* Pods_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5688D75CF2ADEF29BEB88E /* Pods_SDK_Demo.framework */; };
 		50BBFDE3BA5DE043B6D8BDAE /* Pods_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5688D75CF2ADEF29BEB88E /* Pods_SDK_Demo.framework */; };
 		6F048DA721786F9B0093E920 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3340B2029BF80003D4338 /* JSON.swift */; };
 		6F096B1D219067E4004DA16F /* AssetDataSourceBackupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F096B1C219067E4004DA16F /* AssetDataSourceBackupManager.swift */; };
@@ -731,7 +737,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB35ECA2316BD9F00712D07 /* Pods_Photobook_App.framework in Frameworks */,
+				4CB35ECB2316BD9F00712D07 /* Pods_PhotobookTests.framework in Frameworks */,
+				4CB35ECC2316BD9F00712D07 /* Pods_SDK_Demo.framework in Frameworks */,
 				2CE12A09C74DF5AB5E236DB0 /* Pods_Photobook.framework in Frameworks */,
+				4CB35ECD2316BD9F00712D07 /* Pods_Photobook_App.framework in Frameworks */,
+				4CB35ECE2316BD9F00712D07 /* Pods_PhotobookTests.framework in Frameworks */,
+				4CB35ECF2316BD9F00712D07 /* Pods_SDK_Demo.framework in Frameworks */,
 				4CB35EA22316AB6200712D07 /* Analytics.framework in Frameworks */,
 				4CB35EA42316ABF300712D07 /* FBSDKCoreKit.framework in Frameworks */,
 				4CB35EB12316AC1B00712D07 /* Stripe.framework in Frameworks */,
@@ -2965,6 +2977,7 @@
 				INFOPLIST_FILE = PhotobookSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.kite.PhotobookSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -2995,6 +3008,7 @@
 				INFOPLIST_FILE = PhotobookSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.kite.PhotobookSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -3025,6 +3039,7 @@
 				INFOPLIST_FILE = PhotobookSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.kite.PhotobookSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -3054,6 +3069,7 @@
 				INFOPLIST_FILE = PhotobookSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.kite.PhotobookSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -3186,6 +3202,7 @@
 				INFOPLIST_FILE = PhotobookSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.kite.PhotobookSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -3370,6 +3387,7 @@
 				INFOPLIST_FILE = PhotobookSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.kite.PhotobookSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
