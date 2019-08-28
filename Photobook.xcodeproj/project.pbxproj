@@ -157,6 +157,15 @@
 		2EEC03D3209212B3008725B7 /* OrderSummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC03D2209212B3008725B7 /* OrderSummaryTests.swift */; };
 		2EF312B720591EEE001BE3CF /* IntroDismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF312B620591EEE001BE3CF /* IntroDismissSegue.swift */; };
 		3565FCEC1C326BAD05F643B6 /* Pods_Photobook_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1525F61AAEE6A164D123AB /* Pods_Photobook_App.framework */; };
+		4CB35EA22316AB6200712D07 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EA12316AB5700712D07 /* Analytics.framework */; };
+		4CB35EA42316ABF300712D07 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EA32316ABF300712D07 /* FBSDKCoreKit.framework */; };
+		4CB35EA62316ABF800712D07 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EA52316ABF800712D07 /* FBSDKLoginKit.framework */; };
+		4CB35EA82316ABFD00712D07 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EA72316ABFD00712D07 /* KeychainSwift.framework */; };
+		4CB35EAA2316AC0300712D07 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EA92316AC0300712D07 /* OAuthSwift.framework */; };
+		4CB35EAC2316AC0800712D07 /* PayPalDynamicLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EAB2316AC0800712D07 /* PayPalDynamicLoader.framework */; };
+		4CB35EAE2316AC1500712D07 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EAD2316AC1400712D07 /* SDWebImage.framework */; };
+		4CB35EB12316AC1B00712D07 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EAF2316AC1A00712D07 /* Stripe.framework */; };
+		4CB35EB22316AC1B00712D07 /* Stripe.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB35EB02316AC1A00712D07 /* Stripe.bundle */; };
 		50BBFDE3BA5DE043B6D8BDAE /* Pods_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5688D75CF2ADEF29BEB88E /* Pods_SDK_Demo.framework */; };
 		6F048DA721786F9B0093E920 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3340B2029BF80003D4338 /* JSON.swift */; };
 		6F096B1D219067E4004DA16F /* AssetDataSourceBackupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F096B1C219067E4004DA16F /* AssetDataSourceBackupManager.swift */; };
@@ -483,6 +492,28 @@
 		3E0AB91D19CDF2189481A659 /* Pods-PhotobookTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotobookTests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-PhotobookTests/Pods-PhotobookTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		40460F82C6DBF8BA9DA93709 /* Pods-SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDK Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDK Demo/Pods-SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
 		4C4B220EFF2A7332A544289A /* Pods-Photobook.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photobook.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Photobook/Pods-Photobook.release staging.xcconfig"; sourceTree = "<group>"; };
+		4CB35E862316A35A00712D07 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E882316A35A00712D07 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E8A2316A35A00712D07 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E8C2316A35A00712D07 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E8E2316A35A00712D07 /* OAuthSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAuthSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E902316A35A00712D07 /* PayPalDynamicLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PayPalDynamicLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E922316A35A00712D07 /* Pods_Photobook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Photobook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E942316A35A00712D07 /* Pods_Photobook_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Photobook_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E962316A35A00712D07 /* Pods_PhotobookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PhotobookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E982316A35A00712D07 /* Pods_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E9A2316A35A00712D07 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E9C2316A35A00712D07 /* Stripe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Stripe.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35E9E2316A35A00712D07 /* Stripe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Stripe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB35EA12316AB5700712D07 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/Analytics/Analytics.framework"; sourceTree = "<group>"; };
+		4CB35EA32316ABF300712D07 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		4CB35EA52316ABF800712D07 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		4CB35EA72316ABFD00712D07 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/KeychainSwift/KeychainSwift.framework"; sourceTree = "<group>"; };
+		4CB35EA92316AC0300712D07 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/OAuthSwift/OAuthSwift.framework"; sourceTree = "<group>"; };
+		4CB35EAB2316AC0800712D07 /* PayPalDynamicLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayPalDynamicLoader.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/PayPal-iOS-Dynamic-Loader/PayPalDynamicLoader.framework"; sourceTree = "<group>"; };
+		4CB35EAD2316AC1400712D07 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		4CB35EAF2316AC1A00712D07 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/Stripe/Stripe.framework"; sourceTree = "<group>"; };
+		4CB35EB02316AC1A00712D07 /* Stripe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Stripe.bundle; path = "../../../../Library/Developer/Xcode/DerivedData/Photobook-gbfnvwcbwrgtzvgzpduzsmqgqzfr/Build/Products/Debug-iphoneos/Stripe/Stripe.bundle"; sourceTree = "<group>"; };
 		56BF38BC4F357DCE4F22DDA0 /* Pods-SDK Demo.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDK Demo.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-SDK Demo/Pods-SDK Demo.release staging.xcconfig"; sourceTree = "<group>"; };
 		599DCAC4AAC65A41FF0985AC /* Pods-PhotobookTests.release test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotobookTests.release test.xcconfig"; path = "Pods/Target Support Files/Pods-PhotobookTests/Pods-PhotobookTests.release test.xcconfig"; sourceTree = "<group>"; };
 		64CE0004A80A593C21A4297B /* Pods-Photobook App.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photobook App.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Photobook App/Pods-Photobook App.release staging.xcconfig"; sourceTree = "<group>"; };
@@ -701,6 +732,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE12A09C74DF5AB5E236DB0 /* Pods_Photobook.framework in Frameworks */,
+				4CB35EA22316AB6200712D07 /* Analytics.framework in Frameworks */,
+				4CB35EA42316ABF300712D07 /* FBSDKCoreKit.framework in Frameworks */,
+				4CB35EB12316AC1B00712D07 /* Stripe.framework in Frameworks */,
+				4CB35EB22316AC1B00712D07 /* Stripe.bundle in Frameworks */,
+				4CB35EA62316ABF800712D07 /* FBSDKLoginKit.framework in Frameworks */,
+				4CB35EA82316ABFD00712D07 /* KeychainSwift.framework in Frameworks */,
+				4CB35EAA2316AC0300712D07 /* OAuthSwift.framework in Frameworks */,
+				4CB35EAC2316AC0800712D07 /* PayPalDynamicLoader.framework in Frameworks */,
+				4CB35EAE2316AC1500712D07 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1082,7 +1122,29 @@
 		3BAD030253756D88DE562AFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CB35EB02316AC1A00712D07 /* Stripe.bundle */,
+				4CB35EAF2316AC1A00712D07 /* Stripe.framework */,
+				4CB35EAD2316AC1400712D07 /* SDWebImage.framework */,
+				4CB35EAB2316AC0800712D07 /* PayPalDynamicLoader.framework */,
+				4CB35EA92316AC0300712D07 /* OAuthSwift.framework */,
+				4CB35EA72316ABFD00712D07 /* KeychainSwift.framework */,
+				4CB35EA52316ABF800712D07 /* FBSDKLoginKit.framework */,
+				4CB35EA32316ABF300712D07 /* FBSDKCoreKit.framework */,
+				4CB35EA12316AB5700712D07 /* Analytics.framework */,
 				2E51FEBA20E237AE00E62102 /* PayPalDynamicLoader.framework */,
+				4CB35E862316A35A00712D07 /* Analytics.framework */,
+				4CB35E882316A35A00712D07 /* FBSDKCoreKit.framework */,
+				4CB35E8A2316A35A00712D07 /* FBSDKLoginKit.framework */,
+				4CB35E8C2316A35A00712D07 /* KeychainSwift.framework */,
+				4CB35E8E2316A35A00712D07 /* OAuthSwift.framework */,
+				4CB35E902316A35A00712D07 /* PayPalDynamicLoader.framework */,
+				4CB35E922316A35A00712D07 /* Pods_Photobook.framework */,
+				4CB35E942316A35A00712D07 /* Pods_Photobook_App.framework */,
+				4CB35E962316A35A00712D07 /* Pods_PhotobookTests.framework */,
+				4CB35E982316A35A00712D07 /* Pods_SDK_Demo.framework */,
+				4CB35E9A2316A35A00712D07 /* SDWebImage.framework */,
+				4CB35E9C2316A35A00712D07 /* Stripe.bundle */,
+				4CB35E9E2316A35A00712D07 /* Stripe.framework */,
 				2EEC03BE2091C8BF008725B7 /* Analytics.framework */,
 				2EEC03C02091C8BF008725B7 /* Bolts.framework */,
 				2EEC03C22091C8BF008725B7 /* FBSDKCoreKit.framework */,
@@ -1582,6 +1644,7 @@
 				2ED14B952063A9CD00ED2E2C /* Frameworks */,
 				2ED14B962063A9CD00ED2E2C /* Headers */,
 				2ED14B972063A9CD00ED2E2C /* Resources */,
+				4CB35EA02316A47A00712D07 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1832,6 +1895,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotobookTests/Pods-PhotobookTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		4CB35EA02316A47A00712D07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
 		};
 		9D8AC8478FDB5DB4383589C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

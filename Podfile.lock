@@ -36,7 +36,7 @@ DEPENDENCIES:
   - Stripe (~> 15.0.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Analytics
     - Crashlytics
     - Fabric
@@ -64,4 +64,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 840ce7849753ef90369764221f52e9f1140fc46f
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.0.beta.2
